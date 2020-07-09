@@ -1,7 +1,7 @@
 # CrappyCipher
 A not very hard to break cipher algorithm, BUT IT DOES WORK.
 
-**How to use
+**How to use**
 
 Command arguemnts:
   ciph - ciph <string> - Input this on the command to cipher a word
