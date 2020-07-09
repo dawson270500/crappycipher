@@ -2,7 +2,8 @@
 A not very hard to break cipher algorithm, BUT IT DOES WORK.
 
 ----
-***How to use***
+How to use
+--
 
 **Command Version arguemnts:**
 
