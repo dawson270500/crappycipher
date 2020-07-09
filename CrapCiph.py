@@ -21,7 +21,7 @@ else:
 			y = ord(x)
 			out = out + str(y*seed) + "-"
 
-		print(str(out)+str(seed)+"-")
+		print(str(out)+str(seed))
 
 	elif(todo == "unciph" and len(arg) > 2):##uncipher
 		workon = arg[2]
@@ -35,6 +35,7 @@ else:
 				out = ""
 			else:
 				out = out+x
+		nums.append(out)
 
 		letters = ""
 		seed = nums[len(nums)-1]

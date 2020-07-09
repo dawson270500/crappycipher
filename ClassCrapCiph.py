@@ -14,7 +14,7 @@ class CrapCiph:
 			y = ord(x)
 			out = out + str(y*seed) + "-"
 
-		return (str(out)+str(seed)+"-")
+		return (str(out)+str(seed))
 
 	def unciph(inp):##Uncipher input
 		workon = inp
@@ -29,6 +29,7 @@ class CrapCiph:
 			else:
 				out = out+x
 
+		nums.append(out)
 		letters = ""
 		seed = nums[len(nums)-1]
 		nums.remove(seed)
