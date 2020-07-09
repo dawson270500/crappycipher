@@ -2,15 +2,15 @@
 A not very hard to break cipher algorithm, BUT IT DOES WORK.
 
 ----
-**How to use**
+***How to use***
 
-Command Version arguemnts:
+**Command Version arguemnts:**
 
 ciph - ciph (string) - Input this on the command to cipher a word
   
 unciph - unciph (cipher) - Input this on the command to uncipher a word
 
-Class Version:
+**Class Version:**
 
 Create a object of the class CrapCiph, e.g. ```c = new CrapCiph()``` 
 
