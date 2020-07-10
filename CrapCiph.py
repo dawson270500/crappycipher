@@ -18,8 +18,7 @@ else:
 		out = ""
 
 		for x in letters:
-			y = ord(x)
-			out = out + str(y*seed) + "-"
+			out = out + str(ord(x)*seed) + "-"
 
 		print(str(out)+str(seed))
 

@@ -11,8 +11,7 @@ class CrapCiph:
 		out = ""
 
 		for x in letters:
-			y = ord(x)
-			out = out + str(y*seed) + "-"
+			out = out + str(ord(x)*seed) + "-"
 
 		return (str(out)+str(seed))
 
@@ -31,6 +30,7 @@ class CrapCiph:
 
 		nums.append(out)
 		letters = ""
+		
 		seed = nums[len(nums)-1]
 		nums.remove(seed)
 		seed = int(seed)
