@@ -15,9 +15,9 @@ unciph - unciph (cipher) - Input this on the command to uncipher a word
 
 Create a object of the class CrapCiph, e.g. ```c = new CrapCiph()``` 
 
-To cipher something use the ciph function, e.g. ```string = c.ciph("Hello")``` | Arugments: (<string>)
+To cipher something use the ciph function, e.g. ```string = c.ciph("Hello")``` | Arugments: (string)
 
-To uncipher something use the unciph function, e.g. ```string = c.unciph("6003876528-8422104574-9005814792-9005814792-9255976314-83387174")``` | Arugments: (<Ciphered String>)
+To uncipher something use the unciph function, e.g. ```string = c.unciph("6003876528-8422104574-9005814792-9005814792-9255976314-83387174")``` | Arugments: (Ciphered String)
   
   
 ----
